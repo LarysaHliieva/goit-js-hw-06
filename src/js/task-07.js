@@ -3,7 +3,7 @@ const refs = {
     text: document.querySelector("#text"),
 }
 
-const onChangeFontSize = (event) => {
+function onChangeFontSize(event) {
     const value = event.currentTarget.value;
 
     refs.text.style.fontSize = `${value}px`;

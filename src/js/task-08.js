@@ -2,7 +2,7 @@ const refs = {
     form: document.querySelector(".login-form"),
 }
 
-const onSubmit = (event) => {
+function onSubmit(event)  {
     event.preventDefault();
 
     const { email, password } = event.currentTarget.elements;

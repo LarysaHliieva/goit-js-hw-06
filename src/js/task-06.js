@@ -2,7 +2,7 @@ const refs = {
     input: document.querySelector("#validation-input"),
 }
 
-const onValidateInput = (event) => {
+function onValidateInput(event) {
     const input = event.currentTarget;
     const validLength = Number(input.dataset.length);
 
